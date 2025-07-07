@@ -21,4 +21,9 @@ public class TestApp {
         assertEquals(1, subtract(3, 2), "3 - 2 should equal 1");
     }
 
+    @Test
+    public void testProduct() {
+        assertEquals(6, product(2, 3), "2 * 3 should equal 6");
+    }
+
 }
