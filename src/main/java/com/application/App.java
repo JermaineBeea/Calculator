@@ -1,5 +1,4 @@
 package com.application;
-
 /**
  * Main application class for the Calculator project.
  */

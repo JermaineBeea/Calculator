@@ -50,15 +50,15 @@ push-tags:
 
 
 version-release-%:
-    @echo "Setting version to $* for release"
-    sed -i 's/<version>$(VERSION)<\/version>/<version>$*<\/version>/' $(POM)
+	@echo "Setting version to $* for release"
+	sed -i 's/<version>$(VERSION)<\/version>/<version>$*<\/version>/' $(POM)
 	git tag -a "v$*" -m "Release version $*"
 	git push origin "v$*"
 	@echo "Pushed release tag v$*"
 
 version-development-%:
-    @echo "Setting version to $*-SNAPSHOT for development"
-    sed -i 's/<version>$(VERSION)<\/version>/<version>$*-SNAPSHOT<\/version>/' $(POM)
+	@echo "Setting version to $*-SNAPSHOT for development"
+	sed -i 's/<version>$(VERSION)<\/version>/<version>$*-SNAPSHOT<\/version>/' $(POM)
 	@echo "Pushed development tag v$*"
 
 
