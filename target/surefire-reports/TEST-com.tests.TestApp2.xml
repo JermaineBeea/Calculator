@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.tests.TestApp" time="0" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.tests.TestApp2" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.7+6-Ubuntu-0ubuntu122.04"/>
@@ -57,8 +57,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="com.tests.TestApp" name="com.tests.TestApp.testProduct" time="0"/>
-  <testcase classname="com.tests.TestApp" name="com.tests.TestApp.testSubtraction" time="0"/>
-  <testcase classname="com.tests.TestApp" name="com.tests.TestApp.testAddition" time="0"/>
-  <testcase classname="com.tests.TestApp" name="com.tests.TestApp.testExample" time="0"/>
+  <testcase classname="com.tests.TestApp2" name="com.tests.TestApp2.testProduct" time="0.001"/>
+  <testcase classname="com.tests.TestApp2" name="com.tests.TestApp2.testSubtraction" time="0"/>
+  <testcase classname="com.tests.TestApp2" name="com.tests.TestApp2.testAddition" time="0"/>
+  <testcase classname="com.tests.TestApp2" name="com.tests.TestApp2.testExample" time="0"/>
 </testsuite>
