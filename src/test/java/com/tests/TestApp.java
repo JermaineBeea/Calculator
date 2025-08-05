@@ -2,7 +2,7 @@ package com.tests;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import static com.application.App.*; // Importing static methods from App class
+import static com.application.App.*; 
 
 public class TestApp {
 
