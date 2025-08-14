@@ -1,8 +1,8 @@
-package com.tests;
+package co.za.tests;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import static com.application.App.*; 
+import static co.za.application.App.*; 
 
 public class TestApp {
 

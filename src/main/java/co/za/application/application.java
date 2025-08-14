@@ -1,7 +1,7 @@
-package com.application;
+package co.za.application;
 import java.util.*;;
 
-public class RunApplication {
+public class application {
 
     public static void main(String[] args) {
         System.out.println("Welcome to the Calculator Application!");

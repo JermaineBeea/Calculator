@@ -1,4 +1,4 @@
-package com.application;
+package co.za.application;
 /**
  * Main application class for the Calculator project.
  */
